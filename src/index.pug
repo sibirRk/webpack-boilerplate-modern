@@ -1,0 +1,21 @@
+include ../node_modules/bempug/index
+- BEMPUG.modifier = '_';
+
+//- blocks imports
+include ./blocks/head/head
+include ./blocks/header/header
+include ./blocks/footer/footer
+include ./blocks/section/section
+
+doctype html
+html
+  +head({
+    title: 'Каталог'
+  })
+  body.main
+    p 123
+    +header({})
+    main.content
+      +section({})
+
+    +footer({})
