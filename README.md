@@ -10,9 +10,9 @@
 ## commands
 
 ``` bash
+    npm run start       # run develop with local server
     npm run dev         # build develop bundle
     npm run build       # build production bundle
-    npm run watch       # run develop with local server
     npm run cb <name>   # create block 
     npm run cc <name>   # create component 
 ```

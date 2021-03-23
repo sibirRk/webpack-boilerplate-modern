@@ -1,0 +1,1 @@
+This is directory for big components aka components of components

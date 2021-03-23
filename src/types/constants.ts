@@ -1,4 +1,4 @@
-const ProjectName: string = 'Эрика';
+const ProjectName: string = 'Boilerplate';
 
 export {
   ProjectName,

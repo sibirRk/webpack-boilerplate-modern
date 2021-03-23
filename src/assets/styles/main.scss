@@ -1,10 +1,11 @@
 @import "./helpers/gui";
-//@import "./helpers/fonts";
 @import "./helpers/grid";
-@import "./helpers/rem";
 @import "~normalize-scss/sass/normalize";
+//@import "./helpers/fonts";
+
 // Blocks styles
 @import "../../blocks/**/*.scss";
+
 // Components styles
 @import "../../components/**/*.scss";
 
@@ -15,6 +16,7 @@
   outline: none;
 }
 
+// Example styles. Delete it if necessary
 ::-ms-clear {
   display: none;
 }
